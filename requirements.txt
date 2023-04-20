@@ -1,7 +1,7 @@
 streamlit
 pandas
 numpy
-matplotlib.pyplot
-scipy.stats
-plotly.express
+matplotlib
+scipy
+plotly
 re
