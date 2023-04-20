@@ -10,8 +10,8 @@ st.write("""
 ## Bayes Rule Application: 
 ### P(Year of Birth | Name and Sex)
 """)
-
-usa = pd.read_csv('names_usa.csv')
+url = 'https://raw.githubusercontent.com/esnt/birth_year_probability/main/names_usa.csv'
+usa = pd.read_csv(url)
 
 # CSS to inject contained in a string
 hide_table_row_index = """
